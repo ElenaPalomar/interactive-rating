@@ -1,49 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Interactive rating component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <title>Interactive rating</title>
+  </head>
+  <body>
+    <main class="main">
+      <section class="landing">
+        <img src="./images/icon-star.svg" alt="Star icon" class="start" />
+        <h1 class="title">How did we do?</h1>
+        <p class="text">
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
+        <form class="form">
+          <ul class="landing__list">
+            <li class="landing_item"><button class="btn js_btn">1</button></li>
+            <li class="landing_item"><button class="btn js_btn">2</button></li>
+            <li class="landing_item"><button class="btn js_btn">3</button></li>
+            <li class="landing_item"><button class="btn js_btn">4</button></li>
+            <li class="landing_item"><button class="btn js_btn">5</button></li>
+          </ul>
+          <button class="submit">Submit</button>
+        </form>
+      </section>
 
-  <!-- Rating state start -->
+      <section class="thanks hidden">
+        <img
+          src="./images/illustration-thank-you.svg"
+          alt="Rating sent"
+          class="ratingSent"
+        />
+        <h3 class="selectedRating">
+          You selected
+          <span class="rating"></span>
+          out of 5
+        </h3>
+        <h2 class="title">Thank you!</h2>
+        <p class="text">
+          We appreciate you taking the time to give a rating. If you ever need
+          more support, don’t hesitate to get in touch!
+        </p>
+      </section>
+    </main>
 
-  How did we do?
-
-  Please let us know how we did with your support request. All feedback is appreciated 
-  to help us improve our offering!
-
-  1 2 3 4 5
-
-  Submit
-
-  <!-- Rating state end -->
-
-  <!-- Thank you state start -->
-
-  You selected <!-- Add rating here --> out of 5
-
-  Thank you!
-
-  We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch!
-
-  <!-- Thank you state end -->
-
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <footer class="attribution">
+      Challenge by
+      <a
+        href="https://www.frontendmentor.io?ref=challenge"
+        class="attribution__links"
+        target="_blank"
+      >
+        Frontend Mentor
+      </a>
+      . Coded by
+      <a
+        href="https://github.com/ElenaPalomar"
+        class="attribution__links"
+        target="_blank"
+      >
+        Elena Palomar
+      </a>
+      .
+    </footer>
+  </body>
 </html>
