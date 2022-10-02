@@ -1,0 +1,139 @@
+/* VARIABLES */
+:root {
+  /* colors */
+  --background: hsl(216, 12%, 8%);
+  --cardBackground1: hsl(215, 20%, 16%);
+  --cardBackground2: hsl(215, 26%, 12%);
+  --elements: hsl(25, 97%, 53%);
+  --elementsHover: hsl(214, 12%, 54%);
+  --text: hsl(217, 10%, 59%);
+  --buttons: hsl(210, 19%, 18%);
+  --white: hsl(0, 0%, 100%);
+  --links: hsl(203, 45%, 44%);
+
+  /* fonts */
+  --font: 'Overpass', sans-serif;
+  font-size: 62.5%;
+}
+
+/* GLOBAL */
+html {
+  font-size: 16px;
+}
+body {
+  background-color: var(--background);
+  height: 100vh;
+  font-family: var(--font);
+  font-size: 1.5rem;  
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: center;
+}
+
+/* MAIN */
+.main {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* section.landing */
+.landing {
+  background-image: linear-gradient(var(--cardBackground1), var(--cardBackground2));
+  border-radius: 1.4rem;
+  width: calc(100% - 4.8rem);
+  max-width: 41.4rem;
+  padding: 2.4rem;
+}
+.imageContainer {
+  background-color: var(--buttons);
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.star {
+  width: 1.3rem;
+  height: 1.3rem;
+}
+.title {
+  margin-top: 2rem;
+  color: var(--white);
+  font-size: 2.rem;
+}
+.text {
+  padding: 1.2rem 0 2.4rem;
+  color: var(--text);
+  font-size: 1.4rem;
+  line-height: 1.6;
+}
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.8rem;
+}
+.btn {
+  background-color: var(--buttons);
+  border-radius: 50%;
+  width: 3.2em;
+  height: 4.2rem;
+  color: var(--text);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.btn:focus {
+  background-color: var(--elements);
+}
+.btn:hover {
+  background-color: var(--elementsHover);
+}
+.submit {
+  background-color: var(--elements);
+  border-radius: 5rem;
+  width: 100%;
+  margin: 2.4rem 0 1rem;
+  padding: 1.5rem;
+  color: var(--white);
+  letter-spacing: 0.2rem;
+  display: flex;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+
+/* section.thanks */
+.thanks {
+  background-color: var(--cardBackground);
+
+}
+
+
+
+
+
+/* FOOTER */
+.attribution { 
+  height: 2rem;
+  color: var(--white);
+  font-size: 1.1rem;
+  text-align: center;
+}
+.attribution__links {
+  color: var(--links);
+}
+
+/* GLOBAL SPECIFICITY */
+.hidden {
+  display: none;
+}
+

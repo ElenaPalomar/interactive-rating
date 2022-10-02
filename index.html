@@ -3,8 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
+    <title>Interactive rating</title>
+
+    <!-- FAVICON -->
     <link
       rel="icon"
       type="image/png"
@@ -12,38 +14,62 @@
       href="./images/favicon-32x32.png"
     />
 
-    <title>Interactive rating</title>
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <main class="main">
-      <section class="landing">
-        <img src="./images/icon-star.svg" alt="Star icon" class="start" />
+      <section class="landing js_landing">
+        <div class="imageContainer">
+          <img src="./images/icon-star.svg" alt="Star icon" class="star" />
+        </div>
         <h1 class="title">How did we do?</h1>
         <p class="text">
           Please let us know how we did with your support request. All feedback
           is appreciated to help us improve our offering!
         </p>
         <form class="form">
-          <ul class="landing__list">
-            <li class="landing_item"><button class="btn js_btn">1</button></li>
-            <li class="landing_item"><button class="btn js_btn">2</button></li>
-            <li class="landing_item"><button class="btn js_btn">3</button></li>
-            <li class="landing_item"><button class="btn js_btn">4</button></li>
-            <li class="landing_item"><button class="btn js_btn">5</button></li>
+          <ul class="list">
+            <li class="landing_item">
+              <button value="1" class="btn js_btn">1</button>
+            </li>
+            <li class="landing_item">
+              <button value="2" class="btn js_btn">2</button>
+            </li>
+            <li class="landing_item">
+              <button value="3" class="btn js_btn">3</button>
+            </li>
+            <li class="landing_item">
+              <button value="4" class="btn js_btn">4</button>
+            </li>
+            <li class="landing_item">
+              <button value="5" class="btn js_btn">5</button>
+            </li>
           </ul>
-          <button class="submit">Submit</button>
+          <button disabled class="submit js_submit">Submit</button>
         </form>
       </section>
 
-      <section class="thanks hidden">
-        <img
-          src="./images/illustration-thank-you.svg"
-          alt="Rating sent"
-          class="ratingSent"
-        />
+      <section class="thanks js_thanks hidden">
+        <picture>
+          <img
+            src="./images/illustration-thank-you.svg"
+            alt="Rating sent"
+            class="ratingSent"
+          />
+        </picture>
         <h3 class="selectedRating">
           You selected
-          <span class="rating"></span>
+          <span class="rating js_rating"></span>
           out of 5
         </h3>
         <h2 class="title">Thank you!</h2>
@@ -73,5 +99,6 @@
       </a>
       .
     </footer>
+    <script src="./js/script.js"></script>
   </body>
 </html>
