@@ -31,7 +31,7 @@ You should be able to:
   <img src="./images/screenshots/interactive-rating-desktop.PNG" width=80%/>
 </p>
 <p align="center">
-  <img src="./images/screenshots/interactive-rating-mobile.PNG" width=30%/>
+  <img src="./images/screenshots/interactive-rating-mobile.PNG" width=20%/>
 </p>
 
 ### Links
