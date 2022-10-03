@@ -28,10 +28,10 @@ You should be able to:
 ### Screenshot
 
 <p align="center">
-  <img src="./images/screenshots/interactive-rating-desktop.PNG" width=50%/>
+  <img src="./images/screenshots/interactive-rating-desktop.PNG" width=70%/>
 </p>
 <p align="center">
-  <img src="./images/screenshots/interactive-rating-mobile.PNG" height=50%/>
+  <img src="./images/screenshots/interactive-rating-mobile.PNG" width=70%/>
 </p>
 
 ### Links
