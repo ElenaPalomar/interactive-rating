@@ -27,7 +27,7 @@ You should be able to:
 
 ### Screenshot
 
-<img src="./images/screenshots/interactive-rating-desktop.png"/>
+<img src="./images/screenshots/interactive-rating-desktop.PNG"/>
 <p align="center">
   <img src="./images/screenshots/interactive-rating-mobile.PNG"/>
 </p>
