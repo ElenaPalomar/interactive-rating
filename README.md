@@ -27,9 +27,11 @@ You should be able to:
 
 ### Screenshot
 
-<img src="./images/screenshots/interactive-rating-desktop.PNG"/>
 <p align="center">
-  <img src="./images/screenshots/interactive-rating-mobile.PNG"/>
+  <img src="./images/screenshots/interactive-rating-desktop.PNG" width=50%/>
+</p>
+<p align="center">
+  <img src="./images/screenshots/interactive-rating-mobile.PNG" height=50%/>
 </p>
 
 ### Links
