@@ -29,7 +29,7 @@ You should be able to:
 
 <img src="./images/screenshots/interactive-rating-desktop.png"/>
 <p align="center">
-  <img src="./images/screenshots/interactive-rating-mobile.png"/>
+  <img src="./images/screenshots/interactive-rating-mobile.PNG"/>
 </p>
 
 ### Links
