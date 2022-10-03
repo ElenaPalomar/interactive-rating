@@ -171,6 +171,7 @@ body {
 @media (min-width: 480px) {
   /* section.landing */
   .landing {
+    border-radius: 3rem;
     padding: 3rem;
   }
   .imageContainer {
@@ -194,5 +195,29 @@ body {
   }
   .list {
     gap: 2rem;
+  }
+  .submit {
+    width: 95%;
+    margin: 3.2rem auto 0.2rem;
+  }
+
+  /* section.thanks */
+  .thanks {
+    border-radius: 3rem;
+    padding: 4.5rem 3.6rem 4.8rem;
+  }
+  .ratingSent {
+    width: 100%;
+  }
+  .selectedRating {
+    margin: 2.6rem 0 0;
+    padding: 0.6rem 1.6rem;
+    font-size: 1.5rem;
+  }
+  .rating {
+    margin: 0 0.3rem;
+  }
+  .thaksText {
+    font-size: 1.5rem;
   }
 }
