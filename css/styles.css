@@ -108,6 +108,10 @@ body {
   align-items: center;
   cursor: pointer;
 }
+.submit:hover {
+  background-color: var(--white);
+  color: var(--elements);
+}
 
 
 
